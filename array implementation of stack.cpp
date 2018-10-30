@@ -5,7 +5,7 @@
 Write your code in this editor and press "Run" button to compile and execute it.
 
 *******************************************************************************/
-
+//adding headers
 #include <iostream>
 #define max 100
 int a[max];
@@ -22,7 +22,7 @@ void push(int data)
      a[top]=data;
     
 }
-void pop()
+void pop()    //poping iut element
 {
     if(top==-1)
     {
